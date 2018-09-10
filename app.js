@@ -11,4 +11,20 @@ convert.fToC = function(fahrenheit) {
     return (fahrenheit - 32) * 5 / 9;
 }
 
+convert.soma = function(num1, num2) {
+    return num1 + num2;
+}
+
+convert.subtrair = function(num1, num2) {
+    return num1 - num2;
+}
+
+convert.multiplicar = function(num1, num2) {
+    return num1 * num2;
+}
+
+convert.dividir = function(num1, num2) {
+    return num1 / num2;
+}
+
 module.exports = convert;
